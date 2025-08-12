@@ -6,9 +6,11 @@
 # except FileNotFoundError:
 #     print("Error:the file 'sample.txt' was not found")
 
+#if sample.txt'exists:
 file=open('sample.txt','r')
 read=file.read()
 print(read)
+
 
 
 
